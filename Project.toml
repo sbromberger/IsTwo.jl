@@ -2,3 +2,12 @@ name = "IsTwo"
 uuid = "b2276f8f-dded-4db7-a82c-ebdfeb5b3519"
 authors = ["Seth Bromberger <github@bromberger.com>"]
 version = "666.0.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
+
+[compat]
+julia = "1"
